@@ -11,7 +11,7 @@ body{
 
 h1, h2, h3, h4, h5, h6{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #777777;
+    color: #4aaaa5;
     font-weight: bold;
 }
 
@@ -108,6 +108,7 @@ footer{
 }
 
 .wrapper{
+    align-content: center;
     width: 960px;
     margin:0 auto;
 }
@@ -140,10 +141,7 @@ footer{
     border: 2px, solid #cccc;
 }
 
-#left-column {
-    width: 650px;
-    float: left;
-}
+
 
 #left-column h2{
     font-size: 24px;
@@ -151,13 +149,16 @@ footer{
     margin-bottom: 20px;
     border-bottom: 2px solid #ccc;
 }
-#right-column {
-    width: 270px;
-    float: right;
+
+
+
+#left-column {
+    width: 650px;
+margin:auto;
 }
 
-
-
-
-
+.subbox{
+    width: 650px;
+    margin: auto;
+}
 
