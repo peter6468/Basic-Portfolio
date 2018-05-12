@@ -126,8 +126,10 @@ footer{
     float: left;
 }
 
-.portfolio-item:nth-of-type(even){
-    float:right;
+.portfolio-item{
+    align-content: center;
+    width: 960px;
+    margin:0 auto;;
 }
 
 .clearfix{
@@ -162,3 +164,7 @@ margin:auto;
     margin: auto;
 }
 
+.portwrapper{
+    width: 3s0px;
+    margin: auto;
+}
