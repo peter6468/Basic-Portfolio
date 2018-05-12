@@ -1,9 +1,9 @@
-* {
+*{
     box-sizing: border-box;
 }
 
 body{
-    background: #ffff;
+    background: url('../../images/wormz/wormz.png') repeat;
     font-family: Arial, Helvetica, sans-serif;
     overflow: auto;
     color: #777777;
@@ -11,12 +11,13 @@ body{
 
 h1, h2, h3, h4, h5, h6{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
+    color: #777777;
+    font-weight: bold;
 }
 
 header{
     background: white;
-    border-bottom: 3px solid #cccc;
+    border-bottom: 3px solid #ccc;
     margin-bottom: 30px;
 }
 
@@ -25,12 +26,13 @@ header h1{
     color: white;
     display: inline-block;
     padding: 30px;
+    font-size: 30px;
 }
 
 nav{
     width: 300px;
     float: right;
-    margin-top: 25px;
+    margin-top: 35px;
     text-align: center;
 }
 
@@ -51,24 +53,58 @@ nav ul li:last-child a{
     padding-right: none;
 }
 
+header h2{
+    background: white;
+    color: #4aaaa5;
+    display: inline-block;
+    padding: 700px;
+}
+
 p{
     font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 22px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+form label{
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+form input, textarea{
+    width: 100%;
+    display: block;
+    margin-bottom: 5px 0 20px 0;
+    border: 2px solid #cccc;
+    padding: 10px;
+    font-size: 16px;
+}
+
+textarea{
+    height: 300px;
+}
+
+form button{
+    background: #4aaaa5;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 18;
+    border: none;
 }
 
 #profile-photo {
-    width: 244x;
-    height: 326px;
+    width: 400x;
+    height: 175px;
 }
 
 footer{
     background: #666;
-    border-top: 3px solid #4aaaa5;
+    border-top: 5px solid #4aaaa5;
     color: #ccc;
     text-align: center;
     padding: 40px;
-    margin-top: 
+    margin-top: 30px;
 }
 
 .wrapper{
@@ -79,6 +115,18 @@ footer{
 .inline-img{
     float: left;
     margin: 0 15px 15px 0;
+}
+
+.portfolio-item{
+    position: relative;
+    background-color: rgba(0,0,0,.5);
+    margin-bottom: 20px;
+    width: 45%;
+    float: left;
+}
+
+.portfolio-item:nth-of-type(even){
+    float:right;
 }
 
 .clearfix{
@@ -112,7 +160,4 @@ footer{
 
 
 
-/* img{
-    width: 15%;
-    height: 25%;
-} */
+
