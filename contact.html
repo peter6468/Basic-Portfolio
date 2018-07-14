@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,78 +15,77 @@
     <script src="https://www.gstatic.com/firebasejs/5.0.0/firebase-database.js"></script>
 
 </head>
+
 <body>
-    <header>
-        <div class="wrapper">
+    <header id="masthead">
+        <div class="container">
             <h1>Peter Lim</h1>
             <nav>
-                <ul>
-                        <!--proper<li><a href="#">Something1</a></li-->
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <link><a href="contact.html">Contact</a></li>
-                </ul>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
             </nav>
         </div>
-    </header>   
-    <div class="wrapper">
-        <div class="subbox">
+    </header>
+
+    <div id="main-container" class="container">
+        <section class="subbox">
             <h2>Contact Me</h2>
             <div class="row">
                 <div class="col-lg-8 mb-4">
-                  <form name="sentMessage" id="contactForm" novalidate>
-                    <div class="control-group form-group">
-                      <div class="controls">
-                        <label>Full Name:</label>
-                        <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
-                        <p class="help-block"></p>
-                      </div>
-                    </div>
-                    <div class="control-group form-group">
-                      <div class="controls">
-                        <label>Phone Number:</label>
-                        <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
-                      </div>
-                    </div>
-                    <div class="control-group form-group">
-                      <div class="controls">
-                        <label>Email Address:</label>
-                        <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
-                        <p id="errorM"></p>
-                      </div>
-                    </div>
-                    <div class="control-group form-group">
-                      <div class="controls">
-                        <label>Message:</label>
-                        <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message"
-                          maxlength="999" style="resize:none"></textarea>
-                      </div>
-                    </div>
-                    <div id="success"></div>
-                    <!-- For success/fail messages -->
-                    <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
-                  </form>
+                    <form name="sentMessage" id="contactForm">
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                <label>Full Name:</label>
+                                <input type="text" class="form-control" id="name">
+                                <p class="help-block"></p>
+                            </div>
+                        </div>
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                <label>Phone Number:</label>
+                                <input type="tel" class="form-control" id="phone">
+                            </div>
+                        </div>
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                <label>Email Address:</label>
+                                <input type="email" class="form-control" id="email">
+                                <p id="errorM"></p>
+                            </div>
+                        </div>
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                <label>Message:</label>
+                                <textarea rows="10" cols="100" class="form-control" id="message" maxlength="999" style="resize:none"></textarea>
+                            </div>
+                        </div>
+                        <div id="success"></div>
+                        <!-- For success/fail messages -->
+                        <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
+                    </form>
                 </div>
 
-            
 
 
-        </div>
-    </div>
 
-    
+            </div>
+        </section>
 
-    <div class="clearfix>"></div>`
+
+
+        <div class="clearfix>"></div>`
 
         <footer>
-         &copy;2018 Peter Lim
+            &copy;2018 Peter Lim
         </footer>
-         </div>
+    </div>
 
-</div>  
+    </div>
 
-<!-- Jquery and JavaScript -->
-<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-<script src="assets/javascript/firebaseaap.js"></script>
+    <!-- Jquery and JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/firebaseaap.js"></script>
 </body>
+
 </html>

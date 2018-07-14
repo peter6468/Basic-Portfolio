@@ -164,7 +164,7 @@ footer{
 
 #left-column {
     width: 650px;
-margin:auto;
+    margin:auto;
 }
 
 .subbox{
@@ -212,7 +212,8 @@ margin:auto;
       /* display: inline-block; */
       width: fit-content;
     }
-  }
+    .container
+  
   
   @media screen and (max-width: 768px) {
     .main-section {
@@ -223,7 +224,6 @@ margin:auto;
     }
      #logo {
     width: 100%;
-  }
   }
   
   @media screen and (max-width: 640) {
@@ -236,11 +236,11 @@ margin:auto;
     #logo {
       width: 100%;
     }
-  }
-
+  
   @media screen and (max-width: 640) {
     .form-control {
       transition: none;
+      
     }
-  }
+  
   
