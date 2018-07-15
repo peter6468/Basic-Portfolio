@@ -36,9 +36,6 @@ nav{
     text-align: center;
 }
 
-nav ul li{
-    display: inline;
-}
 
 nav a{
     color: #333;
@@ -48,10 +45,6 @@ nav a{
     text-decoration: none;
 }
 
-nav ul li:last-child a{
-    border-right: none;
-    padding-right: none;
-}
 
 header h2{
     background: white;
@@ -206,13 +199,19 @@ footer{
      width: 100%;
     }
     
-    nav{
+    .nav{
       float: none;
       margin: auto;
       /* display: inline-block; */
       width: fit-content;
     }
-    .container
+    .form-control {
+        width: 100%;
+        
+    }
+    .column {
+        width: 100%;
+    }
   
   
   @media screen and (max-width: 768px) {
@@ -223,8 +222,14 @@ footer{
      width: 100%;
     }
      #logo {
-    width: 100%;
+    width: 100%
   }
+    .form-control {
+    width: 50%;
+    }
+    .column {
+        width: 100%;
+    }
   
   @media screen and (max-width: 640) {
     .main-section {
@@ -236,11 +241,13 @@ footer{
     #logo {
       width: 100%;
     }
-  
-  @media screen and (max-width: 640) {
     .form-control {
-      transition: none;
-      
+        width: 10%;
     }
+    .column {
+        width: 100%;
+    }
+  
+
   
   
